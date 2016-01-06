@@ -1,0 +1,17 @@
+{
+  "name": "Nutshell",
+  "version": "0.1.0",
+  "description": "Provides a compressed summary of a given text.",
+  "main": "./lib/nutshell.js",
+  "scripts": {
+    "test": "NODE_PATH=. node_modules/jasmine-node/bin/jasmine-node specs"
+  },
+  "author": "Kevin Eichhorn <kevineichhorn@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "natural": "^0.2.1"
+  }
+}
