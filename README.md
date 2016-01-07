@@ -40,10 +40,6 @@ var summary = in_a.nutshell(YOUR_TEXT);
 > Their addition to the periodic table marks a significant scientific breakthrough, though
 > the elements do not exist for long before they breakdown and become different elements.
 >
-> At present the four new elements have been given the following working titles and symbols:Element 113:
-> ununtrium, Element 115: ununpentium, Element 117: ununseptium, Element 118: ununoctium, IUPAC
-> will ultimately make the final decision on the names of the elements.
->
 > Relevant words: element, table...
 
 ##License
