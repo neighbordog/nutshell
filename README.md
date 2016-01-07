@@ -13,6 +13,16 @@ If you're looking for a more accurate solution, take a look at the TF-IDF algori
 ##Requirements
 in-a-nutshell makes heavy use of the module `natural`
 
+##Basic usage
+
+```javascript
+//
+var in_a = require('in-a-nutshell');
+
+//
+var summary = in_a.nutshell(YOUR_TEXT);
+```
+
 ##Example
 
 ###Source
@@ -37,16 +47,6 @@ in-a-nutshell makes heavy use of the module `natural`
 > will ultimately make the final decision on the names of the elements.
 >
 > Relevant words: element, table...
-
-##Basic usage
-
-```javascript
-//
-var in_a = require('in-a-nutshell');
-
-//
-var summary = in_a.nutshell(YOUR_TEXT);
-```
 
 ##License
 
