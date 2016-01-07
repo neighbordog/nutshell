@@ -18,7 +18,9 @@ If you're looking for a more accurate solution, take a look at the [TF-IDF algor
 ##Installation
 
 Installation with npm:
-    npm install in-a-nutshell
+```
+npm install in-a-nutshell
+```
 
 ##Basic usage
 
