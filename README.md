@@ -1,4 +1,4 @@
-![Travis CI](https://travis-ci.org/neighbordog/nutshell.svg?branch=master)
+[![Build Status](https://travis-ci.org/neighbordog/nutshell.svg?branch=master)](https://travis-ci.org/neighbordog/nutshell)
 
 #in-a-nutshell
 
