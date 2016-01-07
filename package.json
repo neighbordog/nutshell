@@ -12,6 +12,16 @@
   },
   "author": "Kevin Eichhorn <kevineichhorn@me.com>",
   "license": "MIT",
+  "keywords": [
+      "summary",
+      "tldr",
+      "nutshell",
+      "language",
+      "preview",
+      "articles",
+      "news",
+      "text"
+  ],
   "devDependencies": {
     "jasmine-node": "^1.14.5"
   },
