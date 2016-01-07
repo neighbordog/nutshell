@@ -1,9 +1,9 @@
-var in_a = require('../lib/nutshell');
+var in_a = require('../lib/in-a-nutshell');
 var fs = require('fs');
 
 var text = fs.readFileSync("specs/test_data/ants.txt").toString();
 
-describe('nutshell', function() {
+describe('in-a-nutshell', function() {
     it('should summarize a given text', function() {
         expect(
             in_a.nutshell(text, 1)

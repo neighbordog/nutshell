@@ -1,8 +1,8 @@
 {
-  "name": "nutshell",
+  "name": "in-a-nutshell",
   "version": "0.1.0",
   "description": "Provides a compressed summary of a given text.",
-  "main": "./lib/nutshell.js",
+  "main": "./lib/in-a-nutshell.js",
   "repository" : {
       "type" : "git",
       "url" : "git@github.com:neighbordog/nutshell.git"
