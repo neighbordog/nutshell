@@ -1,3 +1,5 @@
+![Travis CI](https://travis-ci.org/neighbordog/nutshell.svg?branch=master)
+
 #in-a-nutshell
 
 `in-a-nutshell` creates a compressed summary of every text or article you give it.
