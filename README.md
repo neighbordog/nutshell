@@ -10,10 +10,15 @@ based on word frequency (excluding stop words) of a given text and then produces
 sentences that include said key phrases.
 
 Due to it's simple nature `in-a-nutshell` can be imprecise at times, especially when it comes to contents of fictional nature.
-If you're looking for a more accurate solution, take a look at the TF-IDF algorithm.
+If you're looking for a more accurate solution, take a look at the [TF-IDF algorithm](https://github.com/NaturalNode/natural#tf-idf).
 
 ##Requirements
-in-a-nutshell makes heavy use of the module `natural`
+`in-a-nutshell` makes heavy use of the module `natural`
+
+##Installation
+
+Installation with npm:
+    npm install in-a-nutshell
 
 ##Basic usage
 
