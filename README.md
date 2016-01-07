@@ -16,10 +16,8 @@ in-a-nutshell makes heavy use of the module `natural`
 ##Basic usage
 
 ```javascript
-//
 var in_a = require('in-a-nutshell');
 
-//
 var summary = in_a.nutshell(YOUR_TEXT);
 ```
 
