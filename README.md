@@ -12,24 +12,6 @@ sentences that include said key phrases.
 Due to it's simple nature `in-a-nutshell` can be imprecise at times, especially when it comes to contents of fictional nature.
 If you're looking for a more accurate solution, take a look at the [TF-IDF algorithm](https://github.com/NaturalNode/natural#tf-idf).
 
-##Requirements
-`in-a-nutshell` makes heavy use of the module `natural`
-
-##Installation
-
-Installation with npm:
-```
-npm install in-a-nutshell
-```
-
-##Basic usage
-
-```javascript
-var in_a = require('in-a-nutshell');
-
-var summary = in_a.nutshell(YOUR_TEXT);
-```
-
 ##Example
 
 ###Source
@@ -50,6 +32,32 @@ var summary = in_a.nutshell(YOUR_TEXT);
 > the elements do not exist for long before they breakdown and become different elements.
 >
 > Relevant words: element, table...
+
+##Requirements
+`in-a-nutshell` makes heavy use of the module `natural`
+
+##Installation
+
+Installation with npm:
+```
+npm install in-a-nutshell
+```
+
+##Basic usage
+
+```javascript
+var in_a = require('in-a-nutshell');
+
+var summary = in_a.nutshell(YOUR_TEXT);
+```
+
+##Parameters
+
+###nutshell(text, summary_length, output_type)
+
+`text` (String) The text to summarize.
+`summary_length` (Integer) The number of sentences the summary will contain.
+`output_type` (String => html|plaintext) The output type of the summary.
 
 ##License
 

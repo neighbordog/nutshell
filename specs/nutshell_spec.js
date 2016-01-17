@@ -19,4 +19,12 @@ describe('in-a-nutshell', function() {
             2
         );
     });
+
+    it('should return the summary in the declared output type', function() {
+        expect(
+            in_a.nutshell(text, 1, "html")
+        ).toEqual(
+            "<p>This common black ant eats other insects, and also aphid honeydew.</p>"
+        );
+    });
 });
