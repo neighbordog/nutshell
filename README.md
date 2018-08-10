@@ -57,9 +57,9 @@ var summary = in_a.nutshell(YOUR_TEXT);
 
 `text` (String) The text to summarize.
 
-`summary_length` (Integer) The number of sentences the summary will contain.
+`summary_length` (Integer) The number of sentences the summary will contain. Defaults to `4`.
 
-`output_type` (String => html|plaintext) The output type of the summary.
+`output_type` (String => html|plaintext) The output type of the summary. Defaults to `plaintext`
 
 ##License
 
