@@ -1,6 +1,6 @@
 {
   "name": "in-a-nutshell",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Provides a compressed summary of a given text.",
   "main": "./lib/in-a-nutshell.js",
   "repository": {
