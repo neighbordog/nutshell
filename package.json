@@ -3,9 +3,9 @@
   "version": "0.1.2",
   "description": "Provides a compressed summary of a given text.",
   "main": "./lib/in-a-nutshell.js",
-  "repository" : {
-      "type" : "git",
-      "url" : "git@github.com:neighbordog/nutshell.git"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neighbordog/nutshell.git"
   },
   "scripts": {
     "test": "NODE_PATH=. node_modules/jasmine-node/bin/jasmine-node specs"
@@ -13,19 +13,20 @@
   "author": "Kevin Eichhorn <kevineichhorn@me.com>",
   "license": "MIT",
   "keywords": [
-      "summary",
-      "tldr",
-      "nutshell",
-      "language",
-      "preview",
-      "articles",
-      "news",
-      "text"
+    "summary",
+    "tldr",
+    "nutshell",
+    "language",
+    "preview",
+    "articles",
+    "news",
+    "text"
   ],
   "devDependencies": {
     "jasmine-node": "^1.14.5"
   },
   "dependencies": {
-    "natural": "^0.2.1"
+    "natural": "^0.2.1",
+    "sbd": "^1.0.12"
   }
 }
