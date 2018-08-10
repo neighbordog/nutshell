@@ -27,4 +27,14 @@ describe('in-a-nutshell', function() {
             "<p>This common black ant eats other insects, and also aphid honeydew.</p>"
         );
     });
+
+
+    it('should handle reserved keywords', function() {
+        const text = 'An example keyword is constructor.'
+        expect(
+            in_a.nutshell(text, 1)
+        ).toEqual(
+            text
+        );
+    });
 });
