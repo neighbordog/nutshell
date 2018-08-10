@@ -28,12 +28,21 @@ describe('in-a-nutshell', function() {
             '<p>This common black ant eats other insects, and also aphid honeydew.</p>'
         );
     });
+  
+    it('should handle reserved keywords', function() {
+       const text = 'An example keyword is constructor.'
+       expect(
+           in_a.nutshell(text, 1)
+       ).toEqual(
+           text
+       );
+    });
 
     it('should handle complex sentences', function() {
-        expect(
-            in_a.nutshell(tesla, 1)
-        ).toEqual(
-            '“That’s a clear factual statement,” said John C. Coffee Jr., a professor at Columbia Law School who specializes in corporate law and securities fraud.'
-        )
-    })
+       expect(
+           in_a.nutshell(tesla, 1)
+       ).toEqual(
+           '“That’s a clear factual statement,” said John C. Coffee Jr., a professor at Columbia Law School who specializes in corporate law and securities fraud.'
+       )
+    });
 });
